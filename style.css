@@ -2,6 +2,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 
+@media only screen and (max-width: 768px) {
+    /*mobile*/
+    .container {
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        max-width: 30rem;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        color: #fff;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 5.4rem;
+        color: #fff;
+        margin-bottom: 5rem;
+    }
+    
+    h2 {
+        font-size: 4.2rem;
+        margin-bottom: 4rem;
+    }
+}
+
+.home-container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 :root {
     background-color: rgb(29, 26, 26)
 }
@@ -14,27 +76,8 @@
     font-family: 'Nova Square', cursive;
 }
 
-h1 {
-    font-size: 5.4rem;
-    color: #fff;
-    margin-bottom: 5rem;
-}
 
-h2 {
-    font-size: 4.2rem;
-    margin-bottom: 4rem;
-}
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 2rem;
-}
 
 .flex-column {
     display: flex;
@@ -142,7 +185,7 @@ input::placeholder {
 }
 
 #footnote {
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: #3d649276;
     text-align: center;
 }

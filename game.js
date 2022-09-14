@@ -22,7 +22,7 @@ let questions = [
         choice3: 'lim x->0- f(x) = 1',
         choice4: 'lim x->0- f(x) = lim x->0+ f(x)',
         answer: 3,
-        image: '/1.png',
+        image: '1.png',
     },
     { //2
         question: 'Determine limit as x approaches (1/2) for the function int x',
@@ -121,7 +121,7 @@ getNewQuestions = () => {
     if(availableQuestions.length ===0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
 
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
 
     questionCounter++;
