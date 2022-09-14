@@ -31,7 +31,7 @@ let questions = [
         choice3: '0',
         choice4: 'Infinity',
         answer: 3,
-        image: '',
+        image: '0.png',
     },
     { //3
         question: 'Use algebra to determine lim x->5 (x^3 - 125)/(x-5). Confirm graphically.',
@@ -40,7 +40,7 @@ let questions = [
         choice3: '75',
         choice4: 'None of the above',
         answer: 3,
-        image: '',
+        image: '0.png',
     },
     { //4
         question: 'Which of the following is true if lim x->b f(x)=7 and lim x->b f(x) = -3 ?',
@@ -49,7 +49,7 @@ let questions = [
         choice3: 'lim x->b (f(x)*g(x)) = 4',
         choice4: 'lim x->b (f(x) + g(x)) = 4',
         answer: 4,
-        image: '',
+        image: '0.png',
     },
     { //5
         question: 'Use the following function below.  What is the value of lim x->1+ f(x)?',
@@ -67,7 +67,7 @@ let questions = [
         choice3: '0',
         choice4: 'None of the above',
         answer: 3,
-        image: '',
+        image: '0.png',
     },
     { //7
         question: 'Use the Squeeze Theorem to determine lim x->inf (1-cos(x))/x^2.  Confirm graphically.',
@@ -76,7 +76,7 @@ let questions = [
         choice3: 'infinity',
         choice4: 'None of the above',
         answer: 1,
-        image: '',
+        image: '0.png',
     },
     { //8
         question: 'Determine the limit as x approaches negative infinity for the following function: ',
@@ -103,7 +103,7 @@ let questions = [
         choice3: '1',
         choice4: '-1/2',
         answer: 1,
-        image: '',
+        image: '0.png',
     },
 ]
 
