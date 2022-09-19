@@ -43,7 +43,7 @@ let questions = [
         image: '0.png',
     },
     { //4
-        question: 'Which of the following is true if lim x->b f(x)=7 and lim x->b f(x) = -3 ?',
+        question: 'Which of the following is true if lim x->b f(x)=7 and lim x->b g(x) = -3 ?',
         choice1: 'lim x->b (f(x)/g(x)) = 4',
         choice2: 'lim x->b 4*g(x) = 4',
         choice3: 'lim x->b (f(x)*g(x)) = 4',
