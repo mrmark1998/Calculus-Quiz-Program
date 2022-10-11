@@ -1,6 +1,8 @@
 # Calc-Quiz-Program
 
-This program was intended as an aid for me while tutoring calculus to my daughter.  She found it very helpful.
+This program was intended as an aid for me while tutoring calculus to my daughter.  She found it very helpful.  It is currently being hosted at:
+
+<b><a href="http://wendychupiano.com/calcQuiz">http://wendychupiano.com/calcQuiz</a></b>
 
 <img src="https://github.com/mrmark1998/Calculus-Quiz-Program/blob/master/calc-quiz-program.png?raw=true">
 
