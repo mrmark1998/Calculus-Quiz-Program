@@ -10,6 +10,6 @@ The program is an app-like quiz which tests the user on various high school calc
 
 9/14/2022 - Updated the program to look much better and usable in mobile devices with CSS
 
-*10/15/2022* - Updated trivia program with 2 more calculus quizzes and also another quiz using the API from https://opentdb.com/.  It was pulled using fetch and the code for the random quiz had to be heavily modified to adjust for the new array format.
+<b>*10/15/2022</b> - Updated trivia program with 2 more calculus quizzes and also another quiz using the API from https://opentdb.com/.  It was pulled using fetch and the code for the random quiz had to be heavily modified to adjust for the new array format.
 
 <a href="http://wendychupiano.com/calcQuiz"><img src="http://wendychupiano.com/calcQuiz/example1.png"></a>
